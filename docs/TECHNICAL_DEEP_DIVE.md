@@ -96,3 +96,14 @@ Inside `atiacm64.dll` (at RVA `0x2115D`, referencing `.rdata` offset `0x1396D8`)
 - **Comparison:** `"true"`
 
 Setting `HKLM\SOFTWARE\AMD\CN\HideContextMenu = "true"` instructs `atiacm64.dll` across **all user accounts on the PC** to suppress the context menu entry natively.
+
+---
+
+## 5. External References & Prior Community Reports
+
+- **Reddit (`r/AMDHelp`):** [Windows 11 right-click triggers AMD Adrenalin](https://www.reddit.com/r/AMDHelp/comments/1u8ony8/windows_11_rightclick_triggers_amd_adrenalin/)
+- **Reddit (`r/AMDHelp`):** [AMD Adrenalin app keeps loading on Win 11 right click](https://www.reddit.com/r/AMDHelp/comments/1mkmwag/amd_adrenaline_app_keeps_loading_on_win_11_right/)
+- **SuperUser:** [Remove "AMD Software: Adrenalin Edition" from Windows Explorer context menu](https://superuser.com/questions/1809960/remove-amd-software-adrenalin-edition-from-windows-explorer-context-menu)
+- **Hacker News:** [Windows 11 context menu performance and `AdvancedMicroDevicesInc-RSXCM`](https://news.ycombinator.com/item?id=40572838)
+- **Boyuan Yang (`blog.hosiet.me`):** [Hide AMD Software Entry in Windows 11 Context Menu (Right-Click Menu)](https://blog.hosiet.me/posts/2023/02/07/hide-amd-software-entry-in-windows-11-context-menu-right-click-menu/)
+- **ElevenForum:** [Edit / Remove from the Desktop context menu: AMD Adrenalin](https://www.elevenforum.com/t/edit-remove-from-the-desktop-context-menu-amd-adrenalin.7923/)

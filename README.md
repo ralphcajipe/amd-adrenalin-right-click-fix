@@ -166,6 +166,31 @@ This issue is most frequently encountered on:
 
 ---
 
+## 📚 Community Reports & References
+
+This bug has been widely reported across Windows 11 and AMD hardware communities. Below are primary community threads, technical analyses, and issue reports documenting both the **auto-launching Adrenalin bug** and the **1-3 second Windows 11 right-click context menu lag**:
+
+1. **Reddit (`r/AMDHelp`) - Auto-Launch Bug:**  
+   [Windows 11 right-click triggers AMD Adrenalin](https://www.reddit.com/r/AMDHelp/comments/1u8ony8/windows_11_rightclick_triggers_amd_adrenalin/)  
+   *Users report that right-clicking the Windows 11 desktop or File Explorer background unexpectedly launches `RadeonSoftware.exe`.*
+2. **Reddit (`r/AMDHelp`) - Right-Click Loading / Freeze Loop:**  
+   [AMD Adrenalin app keeps loading on Win 11 right click](https://www.reddit.com/r/AMDHelp/comments/1mkmwag/amd_adrenaline_app_keeps_loading_on_win_11_right/)  
+   *Documents the recurring right-click loading spinner and background activation of AMD Software on Windows 11.*
+3. **SuperUser (Stack Exchange):**  
+   [Remove "AMD Software: Adrenalin Edition" from Windows Explorer context menu](https://superuser.com/questions/1809960/remove-amd-software-adrenalin-edition-from-windows-explorer-context-menu)  
+   *Identifies the MSIX package `AdvancedMicroDevicesInc-RSXCM` and COM CLSID `{FDADFEE3-02D1-4E7C-A511-380F4C98D73B}` under `Shell Extensions\Blocked`.*
+4. **Hacker News (`news.ycombinator.com`):**  
+   [Discussion on `AdvancedMicroDevicesInc-RSXCM` and Windows 11 Explorer right-click latency](https://news.ycombinator.com/item?id=40572838)  
+   *Explains how AMD's packaged context menu handler stalls Windows 11 File Explorer context menu rendering.*
+5. **Boyuan Yang's Technical Blog (`blog.hosiet.me`):**  
+   [Hide AMD Software Entry in Windows 11 Context Menu (Right-Click Menu)](https://blog.hosiet.me/posts/2023/02/07/hide-amd-software-entry-in-windows-11-context-menu-right-click-menu/)  
+   *Early breakdown of CLSID `{FDADFEE3-02D1-4E7C-A511-380F4C98D73B}` and `Shell Extensions\Blocked` on Windows 11.*
+6. **Windows 11 Forum (`elevenforum.com`):**  
+   [Edit / Remove from the Desktop context menu: AMD Adrenalin](https://www.elevenforum.com/t/edit-remove-from-the-desktop-context-menu-amd-adrenalin.7923/)  
+   *Community troubleshooting of the Windows 11 `Directory\Background` context menu integration.*
+
+---
+
 ## ❓ Frequently Asked Questions (FAQ)
 
 ### Why does AMD Software: Adrenalin Edition open by itself when I right-click the desktop?
